@@ -132,6 +132,8 @@ body{
     background-color: #f3c6bd;
     width: 1400px;
     background-image: url(../assets/ouch.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .hero-title{
@@ -210,13 +212,14 @@ body{
 }
 
 .who-what{
+    display: flex;
     width: 1400px;
     height: 255px;
     background-color: #f4f5f7;
     margin-top: 0;
-    border: springgreen 2px solid;
-    display: grid;
-    grid-template-columns: minmax(130px, 130px) minmax(588px, 588px) minmax(558px, 558px) minmax(130px, 130px);
+    /* border: springgreen 2px solid; */
+    /* display: grid;
+    grid-template-columns: minmax(130px, 130px) minmax(588px, 588px) minmax(558px, 558px) minmax(130px, 130px); */
 }
 
 .what{
@@ -230,9 +233,10 @@ body{
     line-height: 1.45;
     letter-spacing: normal;
     color: #2b292d;
-    border: solid 2px black;
+    /* border: solid 2px black; */
     margin-top: 77px;
     margin-bottom: 76px;
+    margin-left: 130px;
 }
 
 .who{
@@ -246,15 +250,490 @@ body{
     line-height: 1.45;
     letter-spacing: normal;
     color: #2b292d;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     margin-top: 77px;
     margin-bottom: 76px;
+    margin-left: 29px;
 }
 
 .what-title{
     font-weight: 700;
+    margin-top: 0;
+    /* border: hotpink 2px solid; */
 }
 
 .who-title{
     font-weight: 700;
+    margin-top: 0;
+    /* border: hotpink 2px solid; */
+}
+
+.who-info{
+    margin-top: 0;
+    /* border: hotpink 2px solid; */
+}
+
+.what-info{
+    margin-top: 0;
+    /* border: hotpink 2px solid; */
+}
+
+.press{
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nyt{
+    width: 105px;
+    height: 75px;
+    margin-top: 30px;
+}
+
+.forbes {
+    width: 111px;
+    height: 30px;
+    margin-top: 53px;
+}
+
+.apple{
+    width: 43px;
+    height: 50px;
+    margin-top: 43px;
+}
+
+.mashable{
+    width: 153px;
+    height: 26px;
+    margin-top: 55px;
+}
+
+.wsj{
+    width: 76px;
+    height: 43px;
+    margin-top: 46px;
+}
+
+.google{
+    width: 127px;
+    height: 42px;
+    margin-top: 47px;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    background-image: url(../assets/InvisionScreen.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.feature-text{
+    width: 97px;
+    height: 34px;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    color: #009b4d;
+    margin-top: 106px;
+    margin-bottom: 0px;
+}
+
+.feature-title{
+    width: 462px;
+    height: 112px;
+    font-size: 56px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.5px;
+    color: #2b292d;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.feature-info{
+    width: 461px;
+    height: 102px;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #2b292d;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.new-customer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: springgreen 2px solid; */
+    margin-top: 42px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.aquire-img{
+    width: 24px;
+    height: 24px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.aquire-customer-title{
+    width: 418px;
+    height: 28px;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #3142c6;
+    margin-left: 15px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.aquire-customer-info{
+    width: 459px;
+    height: 75px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #2b292d;
+    margin-top: 8px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 3px solid #3142c6;
+}
+
+
+.engage{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+
+.engage-img{
+    width: 23px;
+    height: 25px;
+    padding-bottom: 5px;
+}
+
+.engage-title{
+    width: 418px;
+    height: 28px;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #2b292d;
+    margin-left: 15px;
+   
+}
+
+.develop{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0pc;
+}
+
+.develop-img{
+    width: 22px;
+    height: 22px;
+    padding-top: 12px;
+    /* padding-bottom: 10px ; */
+}
+.develop-title{
+    width: 418px;
+    height: 34px;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #2b292d;
+    margin-left: 15px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+.invision{
+    position: absolute;
+    width: 686px;
+    height: 597px;
+    box-shadow: 0 4px 16px 0 rgba(44, 50, 65, 0.08);
+    top: 1180px;
+    right: 450px;
+}
+
+hr{
+    width: 457px;
+    height: 1px;
+    opacity: 0.15;
+    background-color: #2b292d;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.last-line{
+    margin-bottom: 110px;
+}
+
+.team{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    width: 1400px;
+    height: 790px;
+    /* opacity: 0.4; */
+    background-color: #fcf0e3;
+}
+
+.team-left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    /* border: magenta 2px solid; */
+}
+
+.team-img{
+    margin-top: 149px;
+    margin-left:130PX;
+    width: 425px;
+    height: 510px;
+}
+
+.caption{
+    margin-left:130PX;
+    width: 285px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: right;
+    color: rgba(43, 41, 45, 0.6);
+    /* border: 2px magenta solid; */
+    align-self: flex-end;
+}
+
+.team-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 255px;
+    /* border: magenta 2px solid; */
+}
+
+.team-text{
+    width: 128px;
+    height: 34px;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    color: #f1592b;
+    margin-top: 115px;
+    margin-bottom: 0;
+}
+
+.team-title{
+    width: 462px;
+    height: 112px;
+    font-size: 56px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.5px;
+    color: #2b292d;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.team-info{
+    width: 461px;
+    height: 102px;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #2b292d;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.review-box{
+    width: 460px;
+    height: 213px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.05), 0 1px 3px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    background-blend-mode: overlay, normal;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)), linear-gradient(to bottom, #ffffff, #ffffff);
+    margin-top: 37px;
+    border-bottom: 4px solid #0185d0;
+}
+
+.review-text{
+    width: 366px;
+    height: 85px;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #2b292d;
+    margin: 30px 68px 26px 26px;
+}
+
+.customer-profile{
+    display: flex;
+    margin-left: 26px;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.profile-pic{
+    width: 35px;
+    height: 40px;
+    /* border: steelblue 2px solid; */
+    margin-right: 10px;
+}
+
+.profile-name{
+    width: 201px;
+    height: 66px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 0.6);
+    /* margin-left: 20px;
+    border: steelblue 2px solid; */
+}
+
+.communicate{
+    display: flex;
+}
+
+.communicate-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 130px;
+    margin-top: 123px;
+    /* border: 2px magenta solid; */
+    margin-right: 0px;
+}
+
+.communicate-text{
+    width: 226px;
+    height: 34px;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    color: #0189d1;
+    /* border: 2px magenta solid; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.communicate-title{
+    width: 462px;
+    height: 112px;
+    font-size: 56px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.5px;
+    color: #2b292d;
+    margin-bottom: 0;
+    margin-top: 24px;
+}
+
+.communicate-info{
+    width: 461px;
+    height: 102px;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #2b292d;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.communicate-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 130px;
+    margin-top: 123px;
+    /* border: 2px magenta solid; */
+    margin-right: 130px;
+    margin-left: 223px;
+}
+
+.communicate-img{
+    width: 425px;
+    height: 426px;
+    margin-bottom: 0;
+}
+
+.communicate-caption{
+    width: 240px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(43, 41, 45, 0.6);
+    margin-top: 15px;
+    align-self: center;
 }
